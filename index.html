@@ -3,37 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wedding Countdown</title>
-    <style>
-        .iframe-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        iframe {
-            margin-bottom: 20px;
-        }
-        .title-frame {
-            text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            color: #0000FF; /* Blue text color */
-            width: 576px;
-            margin: 20px auto; /* Centers the title block */
-            padding: 10px;
-        }
-    </style>
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="title-frame">Bhaya Sree WEDS Shashank 🎉</div>
-    <div class="iframe-container">
-        <iframe
-            src="https://free.timeanddate.com/countdown/i9sxidj3/n505/cf106/cm0/cu4/ct0/cs0/cac000/co1/cr0/ss0/cac00f/cpc000/pccf9/tcfc0/fs250/szw576/szh243/tatEngagement%F0%9F%92%8D/tac00f/tptTime%20since%20Event%20started%20in/tpc000/iso2025-04-30T10:16:00"
-            allowtransparency="true" frameborder="0" width="576" height="243"></iframe>
-
-        <iframe
-            src="https://free.timeanddate.com/countdown/i9sxidj3/n505/cf105/cm0/cu4/ct0/cs0/cac000/co1/cr0/ss0/cac00f/cpc000/pcff9/tc3f0/fs250/szw576/szh243/tat%E0%AB%90%20Wedding%20/tacf90/tptTime%20since%20Event%20started%20in/tpc000/iso2025-06-08T08:39:00"
-            allowtransparency="true" frameborder="0" width="576" height="243"></iframe>
+    <div class="title-frame">Countdown to Our Special Days 🎉</div>
+    <div class="countdown-container">
+        <h1>Engagement Countdown</h1>
+        <div class="countdown">
+            <div class="countdown-item">
+                <span id="engagement-days">0</span>
+                <p>Days</p>
+            </div>
+            <div class="countdown-item">
+                <span id="engagement-hours">0</span>
+                <p>Hours</p>
+            </div>
+            <div class="countdown-item">
+                <span id="engagement-minutes">0</span>
+                <p>Minutes</p>
+            </div>
+            <div class="countdown-item">
+                <span id="engagement-seconds">0</span>
+                <p>Seconds</p>
+            </div>
+        </div>
     </div>
+
+    <div class="countdown-container">
+        <h1>Wedding Countdown</h1>
+        <div class="countdown">
+            <div class="countdown-item">
+                <span id="wedding-days">0</span>
+                <p>Days</p>
+            </div>
+            <div class="countdown-item">
+                <span id="wedding-hours">0</span>
+                <p>Hours</p>
+            </div>
+            <div class="countdown-item">
+                <span id="wedding-minutes">0</span>
+                <p>Minutes</p>
+            </div>
+            <div class="countdown-item">
+                <span id="wedding-seconds">0</span>
+                <p>Seconds</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
