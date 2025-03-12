@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.title-frame {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0000FF;
+    width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.countdown-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.countdown-frame1 {
+    padding: 20px;
+    border: 2px solid #000;
+    width: 30%;
+    max-width: 1200px;
+    height: 300px; /* Adjusted height to fit background image */
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centers content vertically */
+}
+.countdown-frame2 {
+    padding: 20px;
+    border: 2px solid #000;
+    width: 30%;
+    max-width: 1200px;
+    height: 300px; /* Adjusted height to fit background image */
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centers content vertically */
+}
+
+.engagement-frame {
+    background-image: url('test.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.wedding-frame {
+    background-image: url('wedding.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.countdown-frame1 h1, .countdown-frame1 span {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #009919;
+}
+.countdown-frame2 h1, .countdown-frame2 span {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FF9900;
+}
